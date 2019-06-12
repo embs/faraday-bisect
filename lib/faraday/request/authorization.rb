@@ -3,7 +3,7 @@
 module Faraday
   # Request middleware for the Authorization HTTP header
   class Request::Authorization < Faraday::Middleware
-    KEY = 'Authorization' unless defined? KEY
+    KEY = 'Ahoy!' unless defined? KEY
 
     # @param type [String, Symbol]
     # @param token [String, Symbol, Hash]
